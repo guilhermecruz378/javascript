@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <script>
+        /*
+        -- PARTE 1 --
+
+        ----- Operadores aritiméticos:
+
+        +(adição)  5 + 2 = 7
+        -(subtração) 5 - 2 = 3
+        *(vezes) 5 * 2 = 10
+        /(divisão) 5 / 2 = 2.5
+        %(resto da divisão) 5 % 2 = 1
+        **(potenciação) 5 ** 2 = 25
+        
+        ----- precedência dos operadores
+        5 + 3 / 2 = 6.5 -> ele ira fazer primeiro a divisão depois o restante da conta
+        (5+3) / 2 = 4 -> para mudar a ordem precisa-se colocar oque você quer que seja feito primeiro em ().
+
+        ------- Ordem de precedência
+        ()
+        **
+        * / % -> tem a mesma ordem de precedência, vai depender de quem vier primeiro
+        + - -> a mesma coisa da parte de cima
+        
+        -------- Atribuição simples
+        var a =(recebe) 5 + 3 
+        var b = a % 5
+        var c = 5 * b ** 2 
+        var d = 10 - a / 2
+        var e = 6 * 2 / d
+        var f = b % e + 4 / e
+
+        ---------- incremento 
+        podemos simplificar os calculos:
+
+        var x = 5
+        x = x + 1 -> x +=1 
+        x = x - 1 -> x -= 1
+
+        Nesse caso podemos simplificar ainda mais quando queremos adicionar uma unidade:
+        x ++ -> x += 1 
+        x -- -> x -= 1
+
+        ----- PARTE 2 
+
+        ------- Operdores relacionais -----------
+
+        > (maior)   5 > 2 = True
+        < (menor)   7 < 4 = False
+        >= (maior ou igual) 8 >= 8 = True
+        <= (menor ou igual ) 9 <= 7 = False
+        == (igual) 5 == 5 = True
+        != (diferente) 4 != 4 = True
+
+        ------- Identidade ---------
+
+        5 == 5 = true
+        5 == '5' = true
+        isso porque o sinal de igualdade não testa o tipo, o javascript análisa se um valor é igual ao outro, são dois valores de tipos diferentes, mas, possuem a mesma grandeza.
+
+        como identificar? 
+        Para identificar esses dois valores se possuem o mesmo tipo usaremos o sinal: 
+        === (sinal de identidade ou operador de igualdade restrita)
+
+        5 === '5' = false
+        nesse caso estamos verificando se eles são identicos se possuem o mesmo valor e o mesmo tipo
+        5 === 5 = true
+
+        5 != '5' = false
+        5 !== '5' = true
+        !=== (desigual restrito)
+
+        --------- Lógicos -----------
+
+        ! (negação) -> quero uma canta mas ela NÃO PODE SER AZUL. então qlr outra serve
+
+        && (conjunção, nosso E lgico) -> quero uma caneta azul E uma vermelha. tem que ser as duas 
+
+        || (disjunção, nosso OU lógico) -> Quero uma caneta azul OU vermelha. pode ser uma ou outra, mas, não pode ser outra cor.
+
+
+
+
+
+        */
+    </script>
+</body>
+</html>
